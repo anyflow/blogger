@@ -19,12 +19,13 @@
   --fg-color-5: rgba(55, 53, 47, 0.024);
   --fg-color-6: rgba(55, 53, 47, 0.8);
   --fg-color-icon: var(--fg-color);
-  --fg-color-lighten: #eff3f7;
+  --fg-color-lighten: rgb(255, 255, 255);
 
   --bg-color: #ffffff;
   --bg-color-0: rgba(135, 131, 120, 0.15);
   --bg-color-1: rgb(247, 246, 243);
   --bg-color-2: rgba(135, 131, 120, 0.15);
+  --bg-color-3: rgb(241, 241, 239);
 
   --select-color-0: var(--primary-color);
   --select-color-1: var(--primary-color);
@@ -73,7 +74,7 @@
 
   --notion-card-background-color: #ffffff;
 
-  --notion-max-width: 1400px;
+  --notion-max-width: 1150px;
   --notion-header-height: 54px;
 
   --notion-page-left-right-padding: calc(min(16px, 8vw));
@@ -100,12 +101,13 @@
   --fg-color-5: rgba(255, 255, 255, 0.7);
   --fg-color-6: #fff;
   --fg-color-icon: #fff;
-  --fg-color-lighten: #333339;
+  --fg-color-lighten: rgb(37, 38, 39);
 
-  --bg-color: #1a1b1e;
+  --bg-color: rgb(25, 25, 25);
   --bg-color-0: rgb(71, 76, 80);
-  --bg-color-1: rgb(63, 68, 71);
+  --bg-color-1: rgb(32, 32, 32);
   --bg-color-2: rgba(135, 131, 120, 0.15);
+  --bg-color-3: rgb(37, 38, 39);
 
   --notion-red: rgb(255, 115, 105);
   --notion-pink: rgb(226, 85, 161);

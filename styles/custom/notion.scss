@@ -322,7 +322,7 @@ body {
   // 제목1 ~ 제목3
   .notion {
     &-h1 {
-      font-size: 1.7rem;
+      font-size: 30px;
 
       &::after {
         content: '';
@@ -362,29 +362,9 @@ body {
     }
   }
 
-  // 인라인코드
-  .notion-inline-code {
-    font-weight: 400;
-    font-family: var(--notion-font);
-    letter-spacing: 0;
-    background-color: transparent !important;
-    position: relative;
-    z-index: 0;
-    background-color: var(--fg-color-lighten) !important;
-    transition: 250ms background-color;
-  }
-
-  // 코드
   .notion-code {
-    .notion-code-copy {
-      top: 0.7rem;
-
-      .notion-code-copy-button {
-        display: block;
-      }
-    }
+    background-color: var(--bg-color-1);
   }
-
   // 구분선
   .notion-hr {
     margin: 6px 0;
@@ -392,18 +372,13 @@ body {
 
   // 콜아웃
   .notion-callout {
-    border-radius: 8px;
-
+    background-color: var(--bg-color-3);
     .notion-page-icon-inline {
       margin-right: 1rem;
       transform: translateY(1px);
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-
-    .notion-inline-code {
-      background-color: var(--fg-color-1) !important;
     }
 
     &.warning {
@@ -414,11 +389,6 @@ body {
     &.error {
       background-color: var(--notion-red_background);
       border-color: var(--notion-red);
-    }
-
-    &.info {
-      background-color: var(--notion-teal_background);
-      border-color: var(--notion-teal);
     }
   }
 
